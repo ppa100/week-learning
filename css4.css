@@ -18,51 +18,47 @@ nav ul li {
 	display: inline-block;
 	margin: 3%;
 }
-aside {display: inline-block;
+aside {
 	text-align: left;
-	float:left;
-	width: 30%;
 	background-color:grey;
-	height: 778px;
-	margin-right: 2%;
+	min-height: 100vh;
 }
 section {
-	display: inline-block;
-	height: 715px;
-	
-	width: 64.003%;
-	float: top;
+	min-height: 100vh;
 	background-color: grey;
-	box-shadow: inset 10px;
 	padding: 2%;
 }
-
 section article {
-	display: inline-block;
-	height: 300px;
-	width: 90%;
 	padding: 2%;
 	background-color: lightgrey;
-	margin: 1%;
-	
+	margin: 1% auto;
 }	
 section article header {
-	display: inline-block;
 	height: 70px;
-	width: 95%;
 	background-color: #F79F81;
-	margin: 2%;
-}
+}	
 section article div {
-	display: inline-block;
 	height: 100px;
-	width: 95%;
 	background-color: #F79F81;
 }
 section article footer {
-	display: inline-block;
 	height: 70px;
-	width: 95%;
 	background-color: #F79F81;
-	margin: 2%;
+}
+
+
+.container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+.container aside {
+	width: 19%;
+	margin: 1%;
+}
+.container section {
+	width: 79%;
+	margin: 1%;
+}
+.container section div {
+	margin: 1% 0;
 }
