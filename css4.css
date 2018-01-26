@@ -1,21 +1,20 @@
-body{
+body {
 	margin: 0 auto;
 	text-align: center;
 }
-h1{
+h1 {
 	display:block;
 	background-color: grey;
 	
 	margin-top: 1%;
-
 }
-nav{
+nav {
 	display: block;
 	background-color:grey;
 	
 	padding: 0 30%;
 }
-nav ul li{
+nav ul li {
 	display: inline-block;
 	margin: 3%;
 }
@@ -24,48 +23,45 @@ aside {display: inline-block;
 	float:left;
 	width: 30%;
 	background-color:grey;
-	height: 763px;
+	height: 778px;
+	margin-right: 2%;
 }
-section{
+section {
 	display: inline-block;
-	height: 700px;
+	height: 715px;
 	
-	width: 60%;
+	width: 64.003%;
 	float: top;
 	background-color: grey;
 	box-shadow: inset 10px;
 	padding: 2%;
-
-	
- 
-
-
 }
 
-section article{
+section article {
 	display: inline-block;
 	height: 300px;
 	width: 90%;
 	padding: 2%;
 	background-color: lightgrey;
 	margin: 1%;
-}
-section article header{
+	
+}	
+section article header {
 	display: inline-block;
 	height: 70px;
 	width: 95%;
 	background-color: #F79F81;
 	margin: 2%;
 }
-section article div{
+section article div {
 	display: inline-block;
 	height: 100px;
 	width: 95%;
 	background-color: #F79F81;
 }
-section article footer{
+section article footer {
 	display: inline-block;
-	height: 60px;
+	height: 70px;
 	width: 95%;
 	background-color: #F79F81;
 	margin: 2%;
