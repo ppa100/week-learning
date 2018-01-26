@@ -4,13 +4,13 @@ body{
 }
 h1{
 	display:block;
-	background-color: lightgrey;
+	background-color: grey;
 	margin: 0 1%;
 
 }
 nav{
 	display: block;
-	background-color: lightgrey;
+	background-color:grey;
 	margin: 1%;
 	padding: 0 30%;
 }
@@ -23,22 +23,38 @@ aside {display: inline-block;
 	float:left;
 	width: 13.5%;
 	margin-left: 1%;
-	background-color: lightgrey;
+	background-color:grey;
 	height: 750px;
 }
 section{
-	display: inline-block;
+	/*display: inline-block;
 	height: 750px;
 	
 	width: 80%;
 	float: top;
 	background-color: red;
-	box-shadow: inset 10px;
-	
-
+	box-shadow: inset 10px;*/
+	 box-sizing: border-box;
+    width: 83%;
+    height: 375px;
+    padding: 30px;    
+    border: 20px solid grey;
+    float:right;
+	margin-right:1%; 
+	background-color: lightgrey;
+ 
 
 
 }
 footer{
+	box-sizing: border-box;
+    width: 83%;
+    height: 375px;
+    padding: 30px;    
+    border: 20px solid grey;
+    float:right;
+	margin-right:1%; 
+	background-color: lightgrey;
 
 }
+
