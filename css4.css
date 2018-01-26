@@ -1,0 +1,44 @@
+body{
+	margin: 0 auto;
+	text-align: center;
+}
+h1{
+	display:block;
+	background-color: lightgrey;
+	margin: 0 1%;
+
+}
+nav{
+	display: block;
+	background-color: lightgrey;
+	margin: 1%;
+	padding: 0 30%;
+}
+nav ul li{
+	display: inline-block;
+	margin: 3%;
+}
+aside {display: inline-block;
+	text-align: left;
+	float:left;
+	width: 13.5%;
+	margin-left: 1%;
+	background-color: lightgrey;
+	height: 750px;
+}
+section{
+	display: inline-block;
+	height: 750px;
+	
+	width: 80%;
+	float: top;
+	background-color: red;
+	box-shadow: inset 10px;
+	
+
+
+
+}
+footer{
+
+}
