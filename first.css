@@ -1,0 +1,106 @@
+body {
+	margin: 0 auto;
+	text-align: center;
+	background-color: #e1e2e1;
+}
+h1,h2,h3,h4 {
+	font-style: italic;
+	color: black;
+}
+h1 {
+	margin-top: 2%;
+	margin-bottom:0;
+	text-decoration: underline;
+	text-transform: capitalize;
+	color: white;
+}
+h2 {text-decoration: underline;}
+section {
+	width: 70%;
+	margin: 0 auto;
+	background-color:#fff;
+	color: #5A5A5A
+}
+
+nav {color:#fefefe;}
+nav ul {margin: 0;}
+nav li {
+	display: inline-block;
+	margin: 2%;
+}
+a {text-decoration: none;}
+header {
+	text-align: center;
+	background-color: #0039cb;
+}
+table { margin: auto; }
+table * {border:1px solid #3a3a3a;}
+
+form {
+	width: 50%;
+	margin: auto;
+}
+form label{
+	width:100%;
+	display: block;
+	text-align: left;
+}
+form input, form textarea {
+	width: 100%;
+	display: block;
+	padding: 5px;
+	border:none;
+	border-bottom: 1.2px solid #0039cb;
+	font-size: 20px;
+}
+form button {
+	display: inline-block;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+footer{
+	background-color: #768FFF;
+	color:#FFF;
+}
+
+.nav1 {background-color: #0039cb;}
+
+.button{
+	background:#768FFF;
+	color: #fff;
+	border:none;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	font-size: 16px;
+	display: block;
+	cursor: pointer;
+}
+li:hover, .button:hover {
+	background-color: #2962ff;
+}
+button.button {
+	display: inline-block;
+	border:2px solid #2962ff;
+	border-radius: 5px;
+	padding: 5px 20px;
+}
+
+.aboutme article {
+	display: inline-block;
+	text-align:left;
+	width:64%;
+	vertical-align: text-top;
+	padding:1%;
+}
+.aboutme article p {
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+.aboutme aside {
+	display: inline-block;
+	text-align: left;
+	width: 30%;
+	vertical-align: text-top;
+	padding:1%;
+}
