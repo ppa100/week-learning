@@ -5,13 +5,14 @@ body{
 h1{
 	display:block;
 	background-color: grey;
-	margin: 0 1%;
+	
+	margin-top: 1%;
 
 }
 nav{
 	display: block;
 	background-color:grey;
-	margin: 1%;
+	
 	padding: 0 30%;
 }
 nav ul li{
@@ -21,40 +22,51 @@ nav ul li{
 aside {display: inline-block;
 	text-align: left;
 	float:left;
-	width: 13.5%;
-	margin-left: 1%;
+	width: 30%;
 	background-color:grey;
-	height: 750px;
+	height: 763px;
 }
 section{
-	/*display: inline-block;
-	height: 750px;
+	display: inline-block;
+	height: 700px;
 	
-	width: 80%;
+	width: 60%;
 	float: top;
-	background-color: red;
-	box-shadow: inset 10px;*/
-	 box-sizing: border-box;
-    width: 83%;
-    height: 375px;
-    padding: 30px;    
-    border: 20px solid grey;
-    float:right;
-	margin-right:1%; 
-	background-color: lightgrey;
+	background-color: grey;
+	box-shadow: inset 10px;
+	padding: 2%;
+
+	
  
 
 
 }
-footer{
-	box-sizing: border-box;
-    width: 83%;
-    height: 375px;
-    padding: 30px;    
-    border: 20px solid grey;
-    float:right;
-	margin-right:1%; 
+
+section article{
+	display: inline-block;
+	height: 300px;
+	width: 90%;
+	padding: 2%;
 	background-color: lightgrey;
-
+	margin: 1%;
 }
-
+section article header{
+	display: inline-block;
+	height: 70px;
+	width: 95%;
+	background-color: #F79F81;
+	margin: 2%;
+}
+section article div{
+	display: inline-block;
+	height: 100px;
+	width: 95%;
+	background-color: #F79F81;
+}
+section article footer{
+	display: inline-block;
+	height: 60px;
+	width: 95%;
+	background-color: #F79F81;
+	margin: 2%;
+}
