@@ -21,7 +21,7 @@ nav ul li {
 	text-transform: uppercase;
 	color: black;
 	margin: 3%;
-	background-color: #F79F81;
+	/*background-color: #F79F81;*/
 	border-radius: 5px;
 	padding: 2.5px 2.5px;
 }
@@ -34,17 +34,28 @@ aside {
 	background-color:grey;
 	min-height: 100vh;
 }
-
+aside nav {
+	padding: 0;
+}
 aside nav ul {
 	
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	/*margin: 0;*/
+	/*padding: 0;*/
 	text-transform: uppercase;
 	text-decoration: underline;
-	
-	
 }	
+aside nav ul li {
+	display: block;
+}
+
+aside nav ul .submenu {
+	display: none;
+
+}
+ .open .submenu {
+	display: block;	
+}
 aside nav ul a {
 	text-decoration: none;
 	text-transform: uppercase;
@@ -79,6 +90,13 @@ section article footer {
 	height: 70px;
 	background-color: #F79F81;
 }
+
+section {
+	display: none;
+}
+.open {
+	display: block;
+}
 footer a{
 	text-decoration: none;
 	text-decoration: bold;
@@ -90,11 +108,7 @@ footer a{
 	padding: 5px 20px;
 
 }
-footer{
-	background-color: grey
-
-}
-
+footer{background-color: grey}
 .container {
 	display: flex;
 	flex-wrap: nowrap;
@@ -110,3 +124,12 @@ footer{
 .container section div {
 	margin: 1% 0;
 }
+.section1{
+	display: block;
+}
+a.active {
+		background-color: #F79F81;
+		border-radius: 5px;
+}
+section.active {display: block;}
+

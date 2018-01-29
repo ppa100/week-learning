@@ -19,9 +19,9 @@
 	</header>
 	<nav>
 		<ul>
-			<li><a href="#">go to 1</a></li>
-			<li><a href="#">go to 2</a></li>		
-			<li><a href="#">go to 3</a></li>
+			<li><a class="goto1" href="#">go to 1</a></li>
+			<li><a class="goto2" href="#">go to 2</a></li>	
+			<li><a class="goto3" href="#">go to 3</a></li>
 		</ul>
 	</nav>
 	<div class="container">
@@ -29,14 +29,14 @@
 			<nav>
 				<ul>
 					<li><a href="#">menu 1</a>
-						<ul>
-							<li><a href="#">submenu 1</a></li>
-							<li><a href="#">submenu 2</a></li>
-							<li><a href="#">submenu 3</a></li>
+						<ul class="submenu">
+							<li ><a class="1" href="#">submenu 1</a></li>
+							<li><a class="2" href="#">submenu 2</a></li>
+							<li><a class="3" href="#">submenu 3</a></li>
 						</ul>
 					</li>
 					<li><a href="#">menu 2</a>
-						<ul>
+						<ul class="submenu">
 							<li><a href="#">submenu 1</a></li>
 							<li><a href="#">submenu 2</a></li>
 							<li><a href="#">submenu 3</a></li>
@@ -44,7 +44,7 @@
 					</li>
 					
 					<li><a href="#">menu 3</a>
-						<ul>
+						<ul class="submenu">
 							<li><a href="#">submenu 1</a></li>
 							<li><a href="#">submenu 2</a></li>
 							<li><a href="#">submenu 3</a></li>
@@ -52,7 +52,7 @@
 					</li>
 					
 					<li><a href="#">menu 4</a>
-						<ul>
+						<ul class="submenu">
 							<li><a href="#">submenu 1</a></li>
 							<li><a href="#">submenu 2</a></li>
 							<li><a href="#">submenu 3</a></li>
@@ -62,24 +62,70 @@
 			</nav>
 		</aside>
 		
-
-
-
-
-
-
-
-		<section>
-			<article>
+		<section class="section1" class="active">
+			<article >
 				<header>
-					<h2>header</h2>
+					<h2>header of section 1</h2>
 				</header>
 				<div>Lorem ipsum</div>
 				<footer>footer</footer>
 			</article>
 			<article>
 				<header>
-					<h2>header</h2>
+					<h2>header of section 1</h2>
+				</header>
+				<div>Loreme ipsum</div>
+				<footer>footer</footer>
+			</article>
+			<article>
+				<header>
+					<h2>header of section 1</h2>
+				</header>
+				<div>Loreme ipsum</div>
+				<footer>footer</footer>
+			</article>
+		</section>
+		<section class="section2">
+			<article>
+				<header>
+					<h2>header of section 2</h2>
+				</header>
+				<div>Lorem ipsum</div>
+				<footer>footer</footer>
+			</article>
+			<article>
+				<header>
+					<h2>header of section 2</h2>
+				</header>
+				<div>Loreme ipsum</div>
+				<footer>footer</footer>
+			</article>
+			<article>
+				<header>
+					<h2>header of section 2</h2>
+				</header>
+				<div>Loreme ipsum</div>
+				<footer>footer</footer>
+			</article>
+		</section>
+		<section class="section3">
+			<article>
+				<header>
+					<h2>header of section 3</h2>
+				</header>
+				<div>Lorem ipsum</div>
+				<footer>footer</footer>
+			</article>
+			<article>
+				<header>
+					<h2>header of section 3</h2>
+				</header>
+				<div>Loreme ipsum</div>
+				<footer>footer</footer>
+			</article>
+			<article>
+				<header>
+					<h2>header of section 3</h2>
 				</header>
 				<div>Loreme ipsum</div>
 				<footer>footer</footer>
@@ -90,6 +136,8 @@
 	<a href="template2.html">Seite 2</a>
 </footer>
 
+<script src="jquery.min.js"></script>
+<script src="app.js"></script>
 </body>
 
 
