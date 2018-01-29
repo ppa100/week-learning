@@ -45,7 +45,21 @@ section article footer {
 	height: 70px;
 	background-color: #F79F81;
 }
+footer a{
+	text-decoration: none;
+	text-decoration: bold;
+	text-transform: uppercase;
+	background-color: lightgrey;
+	display: inline-block;
+	border:2px solid darkgrey;
+	border-radius: 5px;
+	padding: 5px 20px;
 
+}
+footer{
+	background-color: grey
+
+}
 
 .container {
 	display: flex;

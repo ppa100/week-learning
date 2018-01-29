@@ -1,0 +1,57 @@
+body{
+	margin: 0 auto;
+	text-align: center;
+
+
+}
+h1{
+	display: block;
+	background-color: lightgrey;
+	margin-top: 1%;
+	text-transform: uppercase;
+
+}
+
+nav ul {
+	display: block;
+	background-color: lightgrey;
+
+}
+
+
+
+
+
+nav ul li {
+	display: inline-block;
+	margin: 3%;
+}
+nav ul li{background-color: grey;
+	display: inline-block;
+	border:2px solid darkgrey;
+	border-radius: 5px;
+	padding: 5px 20px;
+	text-transform: uppercase  ;
+	text-decoration: ;
+
+
+}
+
+aside{
+	display: block;
+	text-align: left;
+	background-color:lightgrey;
+	min-height:50%;
+}
+section {
+		display: block;
+		background-color:grey;
+		min-height: 100vh;
+		
+}
+
+
+
+
+
+
