@@ -52,14 +52,14 @@ aside nav ul a {
 	background-color: #F79F81;
 	color: black;
 	border-radius: 5px;
-	padding: 2.5px 2.5px;
 }
-aside nav ul li a:hover {
-	background-color: lightgrey;
+  a:hover {
+	background-color:lightgrey;
+	
 }
 section {
 	min-height: 100vh;
-	background-color: grey;
+	background-color:grey;
 	padding: 2%;
 }
 section article {
