@@ -124,9 +124,7 @@ footer{background-color: grey}
 .container section div {
 	margin: 1% 0;
 }
-.section1{
-	display: block;
-}
+.section1{}
 a.active {
 		background-color: #F79F81;
 		border-radius: 5px;
