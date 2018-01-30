@@ -169,3 +169,15 @@ div#box-container .box-main {
 div div footer{
 	background-color: lightgrey;
 }
+
+aside,nav,header, section ,article,header ,footer,div {
+	border-radius: 10px;
+}
+section article div ul{
+	display: inline-block;
+}
+div div footer input {
+	
+
+	
+}

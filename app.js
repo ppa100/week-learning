@@ -40,6 +40,14 @@ $(".goto3").click(function(){
 $(".box").click(function(){
 	$("#box-container").addClass("show");
 });
+
 $(".closebutton, .box-background").click(function(){
 	$("#box-container").removeClass("show");
+});
+
+var getEmail = document.getElementById('emailinput');
+var result = document.getElementById('result');
+
+$("#buttonform").click(function(){
+	$(result).html(getEmail.value);
 });
