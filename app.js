@@ -36,3 +36,10 @@ $(".goto3").click(function(){
 	//Now, the section with the class section3 will recieve tha class active');
 	$(".section3").addClass("active");
 });
+
+$(".box").click(function(){
+	$("#box-container").addClass("show");
+});
+$(".closebutton, .box-background").click(function(){
+	$("#box-container").removeClass("show");
+});
