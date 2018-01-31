@@ -68,12 +68,21 @@ $("#buttonform").click(function(){
 	$("#height2").html(getheight.value);
 	console.log('The info is: '+getheight.value);
 	$("#weight2").html(getweight.value);
-	console.log('The info is: '+getweight.value);
-	$("#box-container").slideUp('slow');
+
+
+
+	console.log("The info is: "+getweight.value);
+
+
+
+	$("#box-container").removeClass("show");
 });
 
 var myweight = document.querySelector('[name=myweight]'),
-myheight = document.querySelector('[name=myheight]');
+myheight = document.querySelector('[name=myheight]'),
+mybmi = document.querySelectorAll('p')[0],
+mycity = document.querySelectorAll("span")[1]	
+	console.log(mybmi);
 
 function calcBmi() {
 	var value_w = parseFloat(myweight.value);
@@ -87,5 +96,8 @@ function calcBmi() {
 	
 	console.log(bmiResult);
 
+	mybmi.innerHTML+=' '+bmiResult;
+
 	return bmiResult;
 }
+
