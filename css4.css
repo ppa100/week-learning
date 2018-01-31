@@ -83,7 +83,6 @@ section article header {
 	background-color: #F79F81;
 }	
 section article div {
-	height: 100px;
 	background-color: #F79F81;
 }
 section article footer {
@@ -176,8 +175,7 @@ aside,nav,header, section ,article,header ,footer,div {
 section article div ul{
 	display: inline-block;
 }
-div div footer input {
-	
-
+div div footer label{
+	display: inline-block;
 	
 }

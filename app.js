@@ -45,9 +45,47 @@ $(".closebutton, .box-background").click(function(){
 	$("#box-container").removeClass("show");
 });
 
-var getEmail = document.getElementById('emailinput');
-var result = document.getElementById('result');
+// var getEmail = document.getElementById('emailinput');
+// var result = document.getElementById('result');
+
+var getage = document.getElementById('age');
+var getname = document.getElementById('name');
+var getcity = document.getElementById('city');
+var getcountry = document.getElementById('country');
+var getheight = document.getElementById('height');
+var getweight = document.getElementById('weight');
+
 
 $("#buttonform").click(function(){
-	$(result).html(getEmail.value);
+	$("#age2").html(getage.value);
+	console.log('The info is: '+getage.value);
+	$("#name2").html(getname.value);
+	console.log('The info is: '+getname.value);
+	$("#city2").html(getcity.value);
+	console.log('The info is: '+getcity.value);
+	$("#country2").html(getcountry.value);
+	console.log('The info is: '+getcountry.value);
+	$("#height2").html(getheight.value);
+	console.log('The info is: '+getheight.value);
+	$("#weight2").html(getweight.value);
+	console.log('The info is: '+getweight.value);
+	$("#box-container").slideUp('slow');
 });
+
+var myweight = document.querySelector('[name=myweight]'),
+myheight = document.querySelector('[name=myheight]');
+
+function calcBmi() {
+	var value_w = parseFloat(myweight.value);
+	var value_h = parseFloat(myheight.value);
+	var bmiResult;
+	// console.log(value_w);
+	// console.log(something);
+	// console.log(something*something);
+	
+	bmiResult = value_w/(value_h*value_h);
+	
+	console.log(bmiResult);
+
+	return bmiResult;
+}

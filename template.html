@@ -70,38 +70,37 @@
 				<div>
 					<ul>
 						<li>
-							<strong>Name:</strong><span>Paul</span>
+							<strong>Name:</strong><span id="name2">Paul</span>
 						</li>
 						<li>
-							<strong>age:</strong><span>18</span>
+							<strong>age:</strong><span id="age2">18</span>
 						</li>
 						<li>
-							<strong>city:</strong><span>frankfurt</span>
+							<strong>city:</strong><span id="city2" >frankfurt</span>
 						</li>
 						<li>
-							<strong>country:</strong><span>germany</span>
+							<strong>country:</strong><span id="country2">germany</span>
 						</li>
 						<li>
-							<strong>height:</strong><span>1.90</span>
+							<strong>height:</strong><span id="height2">1.90</span>
 						</li>
 						<li>
-							<strong>weight:</strong><span>79</span>
+							<strong>weight:</strong><span id="weight2">79</span>
 						</li>
-
-
-
-
-
-
 					</ul>
 				</div>
 				<footer></footer>
 			</article>
 			<article>
 				<header>
-					<h2>header of section 1</h2>
+					<h2>Math(eus)</h2>
 				</header>
-				<div>Loreme ipsum</div>
+				<div>
+					<!--<input type="text" name="myweight" placeholder="Inser your weight">
+					<input type="text" name="myheight" placeholder="Inser your height">
+					<button id="calcbmi" onclick="calcBmi();">CALC!!!!!!!!</button> -->
+
+				</div>
 				<footer>footer</footer>
 			</article>
 			<article>
@@ -170,30 +169,20 @@
 			<h2>sdada</h2>
 		</header>
 		<article>
-			<p id="result">ftfftftftftffftff</p>
 			
 		</article>
 		<footer>
-			<input type="email" name="email" id="emailinput">
-			<button class="button" type="submit" id="buttonform">send</button>
-			<input type="" name="" id="" placeholder="name">
-			<button class="button" type="submit" id="buttonform"  >send</button>
-			<input type="" name="" id="" placeholder="age">
-			<button class="button" type="submit" id="buttonform">send</button>
-			<input type="" name="" id="" placeholder="city">
-			<button class="button" type="submit" id="buttonform">send</button>
-			<input type="" name="" id="" placeholder="country">
-			<button class="button" type="submit" id="buttonform">send</button>
-			<input type="" name="" id="" placeholder="height">
-			<button class="button" type="submit" id="buttonform">send</button>
-			<input type="" name="" id="" placeholder="weight">
-			<button class="button" type="submit" id="buttonform">send</button>
-
+			<label>name<input type="" name="name" id="name" placeholder="name"></label>
+			
+			<label>age<input type="number" name="age" id="age" placeholder="age"></label>
+			<label>city<input type="" name="city" id="city" placeholder="city"></label>
+			<label>country<input type="" name="country" id="country" placeholder="country"></label>
+			<label>height<input type="" name="myheight" id="height" placeholder="height"></label>
+			<label>weight<input type="number" name="myweight" id="weight" placeholder="weight"></label>
+			<button class="button" id="buttonform" id="calcbmi" onclick="calcBmi();">send</button>
 		</footer>
 	</div>
 </div>
-
-
 <script src="jquery.min.js"></script>
 <script src="app.js"></script>
 </body>
