@@ -46,12 +46,12 @@ $(".closebutton, .box-background").click(function(){
 });
 
 
-var myweight = document.querySelector('[name=myweight]');
-var myheight = document.querySelector('[name=myheight]');
 var name2 = document.querySelector("[name=name2]");
 var age2 = document.querySelector("[name=age2]");
 var city2 = document.querySelector("[name=city2]");
 var country2 = document.querySelector("[name=country2]");
+var myweight = document.querySelector('[name=myweight]');
+var myheight = document.querySelector('[name=myheight]');
 var mybmi = document.querySelectorAll('p')[0];
 var mycity = document.querySelectorAll("span")[1];
 
@@ -60,19 +60,17 @@ var my_resultList = document.querySelectorAll('ul.result-bmi')[0];
 var resultList_ALL_li = my_resultList.children;
 
 
-
-
 var take_span_name = resultList_ALL_li[0].children[1];
-var take_span_age2 = resultList_ALL_li[1].children[1];
-var take_span_city2 = resultList_ALL_li[2].children[1];
-var take_span_country2 = resultList_ALL_li[3].children[1];
+var take_span_age = resultList_ALL_li[1].children[1];
+var take_span_city = resultList_ALL_li[2].children[1];
+var take_span_country = resultList_ALL_li[3].children[1];
 var take_span_myheight = resultList_ALL_li[4].children[1];
 var take_span_myweight = resultList_ALL_li[5].children[1];
 
 console.log('What is my name?');
 console.log(take_span_name.innerText);
 
-
+var test = 26.122448979591837;
 
 
 function calcBmi() {
@@ -85,9 +83,16 @@ function calcBmi() {
 	} else if (value_w < 30 || value_w > 150) {
 		alert('please insert a weight value between 30 and 150');
 	} else {
+		take_span_name.innerText = name2.value;
+		take_span_age.innerText = age2.value;
+		take_span_city.innerText = city2.value;
+		take_span_country.innerText = country2.value;
+		take_span_myheight.innerText = value_h;
+		take_span_myweight.innerText = value_w;
+
 		bmiResult = value_w/(value_h*value_h);
-		console.log(bmiResult);
-		mybmi.innerHTML+=' '+bmiResult;
+
+		mybmi.innerHTML+=' '+Math.floor(bmiResult);
 		$("#box-container").removeClass("show");
 	}
 
