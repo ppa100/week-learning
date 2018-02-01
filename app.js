@@ -45,15 +45,6 @@ $(".closebutton, .box-background").click(function(){
 	$("#box-container").removeClass("show");
 });
 
-// var getEmail = document.getElementById('emailinput');
-// var result = document.getElementById('result');
-
-// var getage = document.getElementByName(age2);
-// var getname = document.getElementByName(name2);
-// var getcity = document.getElementByName(city2);
-// var getcountry = document.getElementByName(country2);
-// var getheight = document.getElementByName(myheight);
-// var getweight = document.getElementByName(myweight);
 
 var myweight = document.querySelector('[name=myweight]');
 var myheight = document.querySelector('[name=myheight]');
@@ -89,22 +80,6 @@ function calcBmi() {
 	var value_h = parseFloat(myheight.value);
 	var bmiResult;
 
-console.log(age2);
-console.log(city2);
-console.log(country2);
-console.log(name2)
-	 // $(age2).html(getage.value);
-	 // console.log('The info is: '+getage.value);
-	 // $(name2).html(getname.value);
-	 // console.log('The info is: '+getname.value);
-	 // $(city2).html(getcity.value);
-	 // console.log('The info is: '+getcity.value);
-	 // $(country2).html(getcountry.value);
-	 // console.log('The info is: '+getcountry.value);
-	 // $(height2).html(getheight.value);
-	 // console.log('The info is: '+getheight.value);
-	 // $(weight2).html(getweight.value);
-
 	if (value_h < 1.50 || value_h > 2.30) {
 		alert('please insert a height value between 1.50 and 2.30');
 	} else if (value_w < 30 || value_w > 150) {
@@ -118,24 +93,3 @@ console.log(name2)
 
 	return true;
 }
-
-
-
-
-
-
-
-
-
-	//return bmiResult;
-
-
-// If mywieght is > 30 and < 150
-// do somenthing
-// Else 
-// Show a message to insert a value > 30 and < 150
-
-// ||
-// &&
-// ==
-// !==
