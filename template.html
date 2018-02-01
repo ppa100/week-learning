@@ -68,24 +68,24 @@
 					<h2>Result</h2>
 				</header>
 				<div>
-					<ul>
+					<ul class="result-bmi">
 						<li>
-							<strong>Name:</strong><span id="name2">Paul</span>
+							<strong>Name:</strong><span>Paul</span>
 						</li>
 						<li>
-							<strong>age:</strong><span id="age2">18</span>
+							<strong>age:</strong><span>18</span>
 						</li>
 						<li>
-							<strong>city:</strong><span id="city2" >frankfurt</span>
+							<strong>city:</strong><span>frankfurt</span>
 						</li>
 						<li>
-							<strong>country:</strong><span id="country2">germany</span>
+							<strong>country:</strong><span>germany</span>
 						</li>
 						<li>
-							<strong>height:</strong><span id="height2">1.90</span>
+							<strong>height:</strong><span>1.90</span>
 						</li>
 						<li>
-							<strong>weight:</strong><span id="weight2">79</span>
+							<strong>weight:</strong><span>79</span>
 						</li>
 					</ul>
 					<p>your bmi is:</p>
@@ -106,7 +106,6 @@
 					<!--<input type="text" name="myweight" placeholder="Inser your weight">
 					<input type="text" name="myheight" placeholder="Inser your height">
 					<button id="calcbmi" onclick="calcBmi();">CALC!!!!!!!!</button> -->
-
 				</div>
 				<footer>footer</footer>
 			</article>
@@ -121,9 +120,17 @@
 		<section class="section2">
 			<article>
 				<header>
-					<h2>header of section 2</h2>
+					<h2>Add Games</h2>
 				</header>
-				<div>Lorem ipsum</div>
+				<div>
+					<ul>
+						<li>name</li><li><input type="" name="" placeholder="name"></li>
+						<li>year</li><li><input type="" name="" placeholder="year"></li>
+						<li>category</li><li><input type="" name="" placeholder="category"></li>
+						<li>players</li><li><input type="" name="" placeholder="players"></li>
+
+					</ul>
+				</div>
 				<footer>footer</footer>
 			</article>
 			<article>
@@ -179,13 +186,13 @@
 			
 		</article>
 		<footer>
-			<label>name<input type="" name="name" id="name" placeholder="name"></label>
+			<label>name<input type="" name="name2" id="name" placeholder="name"></label>
 			
-			<label>age<input type="number" name="age" id="age" placeholder="age"></label>
-			<label>city<input type="" name="city" id="city" placeholder="city"></label>
-			<label>country<input type="" name="country" id="country" placeholder="country"></label>
-			<label>height<input type="" name="myheight" id="height" placeholder="height"></label>
-			<label>weight<input type="number" name="myweight" id="weight" placeholder="weight"></label>
+			<label>age<input type="number" name="age2" placeholder="age"></label>
+			<label>city<input type="text" name="city2" placeholder="city"></label>
+			<label>country<input type="text" name="country2" placeholder="country"></label>
+			<label>height<input type="number" name="myheight" placeholder="height" min="1" max="300" value="1"></label>
+			<label>weight<input type="number" name="myweight" placeholder="weight" min="1" max="300" value="1"></label>
 			<button class="button" id="buttonform" id="calcbmi" onclick="calcBmi();">send</button>
 		</footer>
 	</div>

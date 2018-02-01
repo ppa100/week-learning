@@ -13,8 +13,9 @@ h1 {
 nav {
 	display: block;
 	background-color:grey;
-	
 	padding: 0 30%;
+	margin: 0 1%;
+
 }
 nav ul li {
 	display: inline-block;
