@@ -1,23 +1,38 @@
 
 $("aside a").click(function() {
+	//Insert or remove the class in <li> tag');
 	$(this).parent().toggleClass("open");
 });
-
 $(".goto1").click(function(){
+	//It will remove all class active in tag a and section');
 	$("section, a").removeClass("active");
+	
+	//Now will add class "active" in THIS link');
 	$(".goto1").addClass("active");
+
+	//Now, the section with the class section1 will recieve tha class active');
 	$(".section1").addClass("active");
 });
 
 $(".goto2").click(function(){
+	//It will remove all class active in tag a and section');
 	$("section, a").removeClass("active");
+	
+	//Now will add class "active" in THIS link');
 	$(".goto2").addClass("active");
+	
+	//Now, the section with the class section2 will recieve tha class active');
 	$(".section2").addClass("active");
 });
 
 $(".goto3").click(function(){
+	//It will remove all class active in tag a and section');
 	$("section, a").removeClass("active");
+	
+	//Now will add class "active" in THIS link');
 	$(".goto3").addClass("active");
+	
+	//Now, the section with the class section3 will recieve tha class active');
 	$(".section3").addClass("active");
 });
 
@@ -29,6 +44,7 @@ $(".closebutton, .box-background").click(function(){
 	$("#box-container").removeClass("show");
 });
 
+
 var name2 = document.querySelector("[name=name2]");
 var age2 = document.querySelector("[name=age2]");
 var city2 = document.querySelector("[name=city2]");
@@ -38,8 +54,10 @@ var myheight = document.querySelector('[name=myheight]');
 var mybmi = document.querySelectorAll('p')[0];
 var mycity = document.querySelectorAll("span")[1];
 
+
 var my_resultList = document.querySelectorAll('ul.result-bmi')[0];
 var resultList_ALL_li = my_resultList.children;
+
 
 var take_span_name = resultList_ALL_li[0].children[1];
 var take_span_age = resultList_ALL_li[1].children[1];
@@ -52,6 +70,7 @@ console.log('What is my name?');
 console.log(take_span_name.innerText);
 
 var test = 26.122448979591837;
+
 
 function calcBmi() {
 	var value_w = parseFloat(myweight.value);
@@ -75,5 +94,6 @@ function calcBmi() {
 		mybmi.innerHTML+=' '+Math.floor(bmiResult);
 		$("#box-container").removeClass("show");
 	}
-		return true;
+
+	return true;
 }

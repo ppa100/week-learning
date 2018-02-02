@@ -2,12 +2,10 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-
 }
 h1 {
 	display:block;
 	background-color: grey;
-	
 	margin-top: 1%;
 }
 nav {
@@ -15,18 +13,16 @@ nav {
 	background-color:grey;
 	padding: 0 30%;
 	margin: 0 1%;
-
 }
 nav ul li {
 	display: inline-block;
 	text-transform: uppercase;
 	color: black;
 	margin: 3%;
-	/*background-color: #F79F81;*/
 	border-radius: 5px;
 	padding: 2.5px 2.5px;
 }
-nav ul li a{
+nav ul li a {
 	color: black;
 	text-decoration: none;
 }
@@ -35,28 +31,14 @@ aside {
 	background-color:grey;
 	min-height: 100vh;
 }
-aside nav {
-	padding: 0;
-}
+aside nav {padding: 0;}
 aside nav ul {
-	
 	list-style-type: none;
-	/*margin: 0;*/
-	/*padding: 0;*/
 	text-transform: uppercase;
-	/*text-decoration: underline;*/
 }	
-aside nav ul li {
-	display: block;
-}
-
-aside nav ul .submenu {
-	display: none;
-
-}
- .open .submenu {
-	display: block;	
-}
+aside nav ul li {display: block;}
+aside nav ul .submenu {display: none;}
+.open .submenu {display: block;}
 aside nav ul a {
 	text-decoration: none;
 	text-transform: uppercase;
@@ -65,10 +47,7 @@ aside nav ul a {
 	color: black;
 	border-radius: 5px;
 }
-  a:hover {
-	background-color:lightgrey;
-	
-}
+a:hover {background-color:lightgrey;}
 section {
 	min-height: 100vh;
 	background-color:grey;
@@ -90,7 +69,6 @@ section article footer {
 	height: 70px;
 	background-color: #F79F81;
 }
-
 section {
 	display: none;
 }
@@ -106,7 +84,6 @@ footer a{
 	border:2px solid darkgrey;
 	border-radius: 5px;
 	padding: 5px 20px;
-
 }
 footer{background-color: grey}
 .container {
@@ -129,7 +106,6 @@ a.active {
 		border-radius: 5px;
 }
 section.active {display: block;}
-
 div#box-container {display: none;}
 div.box-background {
     background: rgba(0,0,0,0.75);
@@ -139,9 +115,7 @@ div.box-background {
     width: 100%;
     height: 100vh;
 }
-#box-container.show {
-	display:block;
-}
+#box-container.show {display:block;}
 div#box-container .box-main {
 	height: 500px;
 	width: 35%;
@@ -164,19 +138,10 @@ div#box-container .box-main {
 	position: absolute;
 	right: 1%;
 	top: 5px;
-
 }
-div div footer{
-	background-color: lightgrey;
-}
-
+div div footer{background-color: lightgrey;}
 aside,nav,header, section ,article,header ,footer,div {
 	border-radius: 10px;
 }
-section article div ul{
-	display: inline-block;
-}
-div div footer label{
-	display: inline-block;
-	
-}
+section article div ul{display: inline-block;}
+div div footer label{display: inline-block;}
